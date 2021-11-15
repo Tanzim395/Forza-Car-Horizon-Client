@@ -23,7 +23,7 @@ const Dashboard = () => {
           <ul className="nav flex-column text-center text-md-start">
             <li className="mt-3">
               <Link className="nav-link" to={`/home`}>
-                <span className="h6 text-light ">Go to Home</span>
+                <span className="h6 text-light ">/Home</span>
               </Link>
             </li>
             {!admin && (

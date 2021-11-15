@@ -5,11 +5,11 @@ const Navbar = () => {
   const { user, logOut } = useAuth();
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <span className="ms-2  text-warning custom-style p-2 ">
-              Frega Store
+            <span className="ms-2  text-light custom-style p-2 ">
+              Forza Car Horizon
             </span>
           </Link>
           <button
@@ -32,7 +32,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link to="/explore" className="nav-link">
-                  Explore more cars
+                  Explore
                 </Link>
               </li>
               {/* CONDIOTIONAL RENDERING BASE ON THE AUNTHENTICATION STATUS OF USER */}
@@ -70,12 +70,12 @@ const Navbar = () => {
                   {" "}
                   <li className="nav-item">
                     <Link to="/login" className="nav-link">
-                      <button className="btn btn-primary">Login</button>
+                      <button className="btn btn-warning">Login</button>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link to="/register" className="nav-link">
-                      <button className="btn btn-primary">Register</button>
+                      <button className="btn btn-secondary">Register</button>
                     </Link>
                   </li>
                 </>

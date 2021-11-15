@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -9,7 +10,7 @@ const Banner = () => {
         backgroundAttachment: " fixed",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1498887960847-2a5e46312788?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80")`,
+        backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.mos.cms.futurecdn.net/C2NQRWCtwwsLJPi9Y25d9V.jpg")`,
       }}
     >
       <div>
@@ -17,14 +18,16 @@ const Banner = () => {
           className="text-light text-center text-capitalize my-4 px-2"
           style={{ fontSize: "3rem" }}
         >
-          High-end Vehicles
+          Welcome to the <span className="text-warning">Forza Car Horizon.</span>
         </h1>
-        <h5
+        <h3
           className="  px-2  text-light  text-center"
           style={{ color: "gray" }}
-        >
-          Welcome to the Forza Car Horizon.
-        </h5>
+        > Monster <span className="text-danger">Sports Car</span> Collections
+        </h3>
+        <div className="justify-content-center align-items-center">
+          <NavLink to="explore" className="btn btn-danger justify-content-center text-align-center align-items-center my-10 w-75">Order Now!!!</NavLink>
+        </div>
       </div>
     </div>
   );

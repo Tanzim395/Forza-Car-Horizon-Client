@@ -54,7 +54,6 @@ const Home = () => {
           </div>
         </div>
         <Reviews />
-        <Subscribe />
       </div>
       <Footer />
     </>
