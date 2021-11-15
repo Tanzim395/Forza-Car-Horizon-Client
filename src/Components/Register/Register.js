@@ -64,11 +64,11 @@ const Register = () => {
             required
             className="form-control w-75"
           />
-          <button className="btn btn-dark w-75 my-4" onClick={handleSubmit}>
+          <button className="btn btn-danger w-75 my-4" onClick={handleSubmit}>
             Submit
           </button>
-          <div className="mb-3">--------OR-----------</div>
-          <button className="btn btn-dark w-75 " onClick={handleGoogleLogIn}>
+          <div className="mb-5">--------OR-----------</div>
+          <button className="btn btn-primary w-75 " onClick={handleGoogleLogIn}>
             {" "}
             Register with google
           </button>
@@ -78,8 +78,8 @@ const Register = () => {
         </div>
         <div className="col-md-6">
           <img
-            src="https://i.ibb.co/FYdt88r/Mobile-login.jpg"
-            className="w-75"
+            src="https://i.ibb.co/C9n30T4/hand-tying-laptop-computer-password-login-screen-cyber-security-concept-hand-tying-laptop-computer-p.jpg"
+            className="w-100"
             alt=""
           />
         </div>

@@ -5,11 +5,11 @@ const Navbar = () => {
   const { user, logOut } = useAuth();
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <span className="ms-2  text-light custom-style p-2 ">
-              Forza Car Horizon
+            <span style={{ fontSize: "25px", fontWeight: "600" }} className="ms-2  text-danger custom-style p-2 ">
+              <i>Forza Car Horizon</i>
             </span>
           </Link>
           <button
@@ -70,17 +70,16 @@ const Navbar = () => {
                   {" "}
                   <li className="nav-item">
                     <Link to="/login" className="nav-link">
-                      <button className="btn btn-warning">Login</button>
+                      <button className="btn btn-danger">Login</button>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link to="/register" className="nav-link">
-                      <button className="btn btn-secondary">Register</button>
+                      <button className="btn btn-primary">Register</button>
                     </Link>
                   </li>
                 </>
               )}
-              )
             </ul>
           </div>
         </div>

@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Banner from "../Banner/Banner";
+import PriceTable from "../PriceTable/PriceTable";
 import Reviews from "../Reviews/Reviews";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
@@ -54,6 +55,7 @@ const Home = () => {
           </div>
         </div>
         <Reviews />
+        <PriceTable />
       </div>
       <Footer />
     </>

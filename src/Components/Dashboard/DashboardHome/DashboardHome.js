@@ -7,14 +7,14 @@ const DashboardHome = () => {
         <div className="col-12">
           <div className="">
             <h3 className="text-center text-info fw-bold">
-              Welcome to the Dashboard
+              Welcome Home of Dashboard
             </h3>
           </div>
         </div>
         <div className="col-12 ">
           <img
-            src="https://i.ibb.co/rF7sN8c/3556960.jpg"
-            className="img-fluid w-50 center"
+            src="https://media.istockphoto.com/photos/businessman-touching-global-networking-data-online-shopping-with-icon-picture-id1278040502"
+            className="img-fluid w-75 center"
             alt=""
           />
         </div>

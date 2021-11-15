@@ -51,21 +51,21 @@ const Login = () => {
             required
             className="form-control w-75"
           />
-          <button className="btn btn-dark w-75 my-4" onClick={handleLogIn}>
+          <button className="btn btn-danger w-75 my-4" onClick={handleLogIn}>
             Submit
           </button>
           <div className="mb-3">--------OR-----------</div>
-          <button className="btn btn-dark w-75" onClick={handleGoogleLogIn}>
+          <button className="btn btn-primary w-75" onClick={handleGoogleLogIn}>
             {" "}
             Login with google
           </button>
           <p className="lead my-2">
-            Don't have an account ? <Link to="/register">Register</Link>
+            New User? <Link to="/register">Register Here</Link>
           </p>
         </div>
         <div className="col-md-6">
           <img
-            src="https://i.ibb.co/SnJrMJP/4957136.jpg"
+            src="https://i.ibb.co/pvQpcLX/folder-lock-jpg-optimal.jpg"
             className="w-75"
             alt=""
           />
