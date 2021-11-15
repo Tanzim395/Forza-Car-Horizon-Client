@@ -32,7 +32,7 @@ const MyOrders = () => {
         <div>
           <img
             className="img-fluid"
-            src="https://cdn.iconscout.com/icon/free/png-256/data-not-found-1965034-1662569.png"
+            src="https://cdn.dribbble.com/users/1731956/screenshots/4114317/media/935d25727c6032e4b85d3e633d5912a1.png?compress=1&resize=400x300"
             alt=""
           />
         </div>

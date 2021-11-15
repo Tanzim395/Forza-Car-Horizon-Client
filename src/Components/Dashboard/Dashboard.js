@@ -19,7 +19,7 @@ const Dashboard = () => {
   return (
     <div className="container-fluid ">
       <div className="row">
-        <div className="col-md-2 bg-dark responsive-sidebar">
+        <div style={{ backgroundColor: "#001e3c" }} className="col-md-2 responsive-sidebar">
           <ul className="nav flex-column text-center text-md-start">
             <li className="mt-3">
               <Link className="nav-link" to={`/home`}>

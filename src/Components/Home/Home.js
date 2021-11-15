@@ -22,9 +22,9 @@ const Home = () => {
         <Banner />
         <div className="container my-5">
           <h2 className="my-3 text-center">
-            <span className="text-warning fw-bold">
+            <span className="text-primary fw-bold">
               {" "}
-              Have a look at some of our awesome cars
+              Our Top Cars
             </span>
           </h2>
           <div className="row row-cols-1 row-cols-md-3 g-4 ">
