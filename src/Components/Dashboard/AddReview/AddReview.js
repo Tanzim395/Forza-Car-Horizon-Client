@@ -6,7 +6,7 @@ const AddReview = () => {
   document.title = "Add More Trips";
 
   const onSubmit = (data) => {
-    axios.post("http://localhost:5000/reviews", data).then((res) => {
+    axios.post("https://lit-savannah-99618.herokuapp.com/reviews", data).then((res) => {
       if (res.data.insertedId) {
         alert("Your Review has been  Added");
         reset();

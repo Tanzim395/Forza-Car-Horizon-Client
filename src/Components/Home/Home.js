@@ -6,13 +6,12 @@ import PriceTable from "../PriceTable/PriceTable";
 import Reviews from "../Reviews/Reviews";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
-import Subscribe from "../Subscribe/Subscribe";
 
 const Home = () => {
   const [cars, setCars] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/allCars")
+      .get("https://lit-savannah-99618.herokuapp.com/allCars")
 
       .then((res) => setCars(res.data.slice(0, 6)));
   }, []);
