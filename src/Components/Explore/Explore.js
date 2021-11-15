@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 
+//allcars
 const Explore = () => {
   const [cars, setCars] = useState([]);
   useEffect(() => {

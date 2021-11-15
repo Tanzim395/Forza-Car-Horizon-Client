@@ -54,7 +54,7 @@ const Navbar = () => {
                   </Link>
                 </li>{" "} */}
                   {user.displayName ? (
-                    <span className="me-2 text-dark  bg-info  p-1 px-sm-3 my-sm-2 my-4 fw-bold ">
+                    <span className="me-2 text-light  bg-secondary  p-1 px-sm-3 my-sm-2 my-4 fw-bold ">
                       {user.displayName}
                     </span>
                   ) : (
